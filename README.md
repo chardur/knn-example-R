@@ -5,7 +5,7 @@ The k-nearest neighbors algorithm is a supervised learning algorithm, commonly u
 
 ## The data
 
-* [Kaggle heart dataset](https://www.kaggle.com/datasets/uciml/glass)
+* [Kaggle glass dataset](https://www.kaggle.com/datasets/uciml/glass)
 * Rows 1-9 are predictive
 * Row 10 is the category: 1-7
 * [Click here to view the detailed data report](https://chardur.github.io/knn-example-R/report.html)
@@ -33,6 +33,8 @@ This dataset is small with only 215 observations. Due to this, 90% of the data i
 
 Graphing the relationship between k value and accuracy I found that k=3 provided the best results at 68.39% accuracy with the training data. 
 When using the test data the performance raised to 75%. 
+
+<img src="kvsaccuracy.jpg" alt="image"> 
 
 The [data report](https://chardur.github.io/knn-example-R/report.html) correlation analysis indicated that Al and Na had high correlation with glass type.
 Here is a graph with these two features, as well as the predicted and observed graphs (test datset):
